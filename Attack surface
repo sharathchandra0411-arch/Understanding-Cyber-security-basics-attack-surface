@@ -1,0 +1,80 @@
+
+
+
+. What is an Attack Surface?
+
+The **attack surface** is the total number of points where an attacker can try to enter or extract data from a system.
+
+In simple terms:
+
+> **The larger the attack surface, the higher the risk of attack.**
+
+---
+
+. Types of Attack Surface
+
+### 1. Digital Attack Surface
+
+Includes all software and network-based entry points:
+
+* Web applications
+* APIs
+* Open ports
+* Cloud services
+* Databases
+* Operating systems
+
+### 2. Physical Attack Surface
+
+Includes physical access to systems:
+
+* USB ports
+* Laptops and servers
+* Office access
+* Stolen or lost devices
+
+### 3. Human Attack Surface
+
+Includes people who interact with systems:
+
+* Employees
+* Contractors
+* Users falling for phishing or social engineering
+
+---
+
+. Examples of Attack Surface
+
+* An unpatched web application with known vulnerabilities
+* Weak passwords or reused credentials
+* Exposed admin panels
+* Unsecured Wi-Fi networks
+* Publicly accessible cloud storage
+
+---
+
+ Reducing the Attack Surface
+
+Best practices to minimize attack surface include:
+
+* Keeping software and systems updated
+* Removing unused services and applications
+* Using strong authentication (MFA)
+* Limiting user privileges (least privilege principle)
+* Encrypting sensitive data
+* Educating users about security awareness
+
+---
+. Why Attack Surface Management Matters
+
+Managing the attack surface helps:
+
+* Reduce security risks
+* Prevent data breaches
+* Improve overall security posture
+* Detect vulnerabilities early
+
+Organizations continuously monitor and assess their attack surface to stay protected against evolving threats.
+
+
+
