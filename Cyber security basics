@@ -1,0 +1,53 @@
+
+
+
+# Cybersecurity Basics and Attack Surface
+1. What is Cybersecurity?
+
+Cybersecurity is the practice of protecting systems, networks, applications, and data from digital attacks. These attacks aim to access, change, destroy, or steal information, or disrupt normal business operations.
+
+Cybersecurity is important because modern organizations rely heavily on digital systems, and security breaches can lead to financial loss, legal issues, and damage to reputation.
+
+---
+
+. Core Principles of Cybersecurity (CIA Triad)
+
+Cybersecurity is built on three fundamental principles known as the **CIA Triad**:
+
+### Confidentiality
+
+Ensures that sensitive information is accessible only to authorized users.
+Examples:
+
+* Password protection
+* Encryption
+* Access control
+
+### Integrity
+
+Ensures that data is accurate and has not been altered without authorization.
+Examples:
+
+* Hashing
+* Digital signatures
+* Version control
+
+### Availability
+
+Ensures that systems and data are available when needed.
+Examples:
+
+* Backups
+* Redundancy
+* Protection against Denial-of-Service (DoS) attacks
+
+---
+
+. Common Types of Cyber Attacks
+
+* **Malware** – Malicious software such as viruses, worms, ransomware, and spyware.
+* **Phishing** – Tricking users into revealing sensitive information through fake emails or websites.
+* **Brute Force Attacks** – Trying many password combinations to gain access.
+* **Man-in-the-Middle (MITM)** – Intercepting communication between two parties.
+* **Denial-of-Service (DoS / DDoS)** – Overloading systems to make them unavailable.
+
