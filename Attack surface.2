@@ -1,0 +1,111 @@
+
+
+. Understand Your Attack Surface
+
+Attack surface includes:
+
+* **Network**: open ports, services, firewalls
+* **Applications**: web apps, APIs, mobile apps
+* **Endpoints**: laptops, servers, IoT devices
+* **Users**: credentials, permissions, human behavior
+* **Data**: databases, backups, logs, secrets
+
+You can’t protect what you don’t know exists.
+
+
+
+. Minimize Exposure (Most Important)
+
+**Remove anything unnecessary**
+
+* Disable unused services, ports, and protocols
+* Uninstall unused software and plugins
+* Remove old APIs and legacy systems
+* Shut down test, dev, and staging systems exposed to the internet
+
+> Less functionality = less risk
+
+---
+
+. Apply Strong Access Control
+
+* **Least privilege**: users and services get only what they need
+* Use **role-based access control (RBAC)**
+* Enforce **multi-factor authentication (MFA)** everywhere possible
+* Avoid shared accounts
+* Rotate credentials and API keys regularly
+
+---
+
+. Harden Systems
+
+* Secure OS and application configurations (CIS benchmarks)
+* Disable default accounts and passwords
+* Use secure headers (HSTS, CSP, etc.) for web apps
+* Encrypt data **in transit** (TLS) and **at rest**
+
+---
+
+. Patch and Update Regularly
+
+* Apply OS, firmware, and application updates promptly
+* Patch known vulnerabilities (CVEs)
+* Automate patch management where possible
+
+Unpatched systems are one of the top attack vectors.
+
+---
+
+. Protect Network Boundaries
+
+* Use firewalls and allow only required traffic
+* Segment networks (don’t put everything on one flat network)
+* Restrict admin access to internal or VPN-only networks
+* Monitor inbound and outbound traffic
+
+---
+
+. Secure Applications & APIs
+
+* Validate all user input (prevent SQLi, XSS, command injection)
+* Use authentication and authorization on every API
+* Rate-limit APIs to prevent abuse
+* Hide internal errors and stack traces
+* Perform code reviews and security testing
+
+---
+
+. Monitor and Detect
+
+* Centralized logging and monitoring
+* Intrusion detection / prevention systems (IDS/IPS)
+* Alert on suspicious behavior (failed logins, privilege escalation)
+* Regularly review logs
+
+---
+
+. Train Users (Human Attack Surface)
+
+* Security awareness training
+* Phishing simulations
+* Clear password and device policies
+* Encourage reporting suspicious activity
+
+Humans are often the weakest link.
+
+---
+
+. Regularly Test Your Security
+
+* Vulnerability scanning
+* Penetration testing
+* Red team / blue team exercises
+* Attack surface discovery tools
+
+Security is not “set and forget”.
+
+---
+
+### Simple Rule of Thumb
+
+> **Reduce, Restrict, Patch, Monitor**
