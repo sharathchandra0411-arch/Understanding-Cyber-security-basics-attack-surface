@@ -1,0 +1,215 @@
+
+
+. Web Applications
+
+**Attack surface components**
+
+* Login pages
+* Input forms
+* File uploads
+* Cookies & sessions
+* APIs & backend services
+
+**Common attacks**
+
+* SQL Injection
+* Cross-Site Scripting (XSS)
+* Cross-Site Request Forgery (CSRF)
+* Authentication bypass
+* Broken access control
+
+**Example**
+
+> An attacker injects malicious SQL through a login form to access the database.
+
+---
+
+. APIs (Very High-Risk Surface)
+
+**Attack surface components**
+
+* REST / GraphQL endpoints
+* Authentication tokens
+* Rate limits
+* API versions
+
+**Common attacks**
+
+* Broken Object Level Authorization (BOLA)
+* Token theft
+* API abuse
+* Mass assignment
+
+**Example**
+
+> An attacker changes a user ID in an API request to access another user’s data.
+
+---
+
+. Network Infrastructure
+
+**Attack surface components**
+
+* Open ports
+* Firewalls
+* VPNs
+* DNS servers
+
+**Common attacks**
+
+* Port scanning
+* DDoS
+* Man-in-the-Middle (MITM)
+* Exploiting unpatched services
+
+**Example**
+
+> An exposed RDP port allows brute-force access.
+
+---
+
+. Endpoints (User Devices)
+
+**Attack surface components**
+
+* Laptops, mobiles, IoT
+* USB ports
+* Installed software
+* OS vulnerabilities
+
+**Common attacks**
+
+* Malware
+* Ransomware
+* Keylogging
+* Privilege escalation
+
+**Example**
+
+> A phishing email installs malware on a user’s laptop.
+
+---
+
+. Cloud Environments
+
+**Attack surface components**
+
+* Public storage buckets
+* IAM roles
+* Management consoles
+* Serverless functions
+
+**Common attacks**
+
+* Misconfigured storage exposure
+* Credential theft
+* Privilege escalation
+* API abuse
+
+**Example**
+
+> A public S3 bucket leaks customer data.
+
+---
+
+. Identity & Access Management (IAM)
+
+**Attack surface components**
+
+* Passwords
+* MFA implementations
+* Single Sign-On (SSO)
+* Privileged accounts
+
+**Common attacks**
+
+* Credential stuffing
+* Phishing
+* MFA fatigue attacks
+
+**Example**
+
+> Reused passwords allow attackers to log in from breached credentials.
+
+---
+
+. Software Supply Chain
+
+**Attack surface components**
+
+* Third-party libraries
+* CI/CD pipelines
+* Update mechanisms
+
+**Common attacks**
+
+* Dependency poisoning
+* Malicious updates
+* Compromised build systems
+
+**Example**
+
+> A vulnerable open-source library gives attackers system access.
+
+---
+
+. Data & Storage
+
+**Attack surface components**
+
+* Databases
+* Backups
+* Logs
+* Secrets
+
+**Common attacks**
+
+* Data exfiltration
+* Unauthorized access
+* Misconfigurations
+
+**Example**
+
+> A backup server is publicly accessible without authentication.
+
+
+. Human Attack Surface
+
+**Attack surface components**
+
+* Emails
+* Social media
+* Help desks
+* Physical access
+
+**Common attacks**
+
+* Phishing
+* Social engineering
+* Insider threats
+
+**Example**
+
+> An attacker impersonates IT support to reset a password.
+
+---
+
+. Physical Infrastructure
+
+**Attack surface components**
+
+* Servers
+* USB access
+* Network closets
+
+**Common attacks**
+
+* Hardware tampering
+* Rogue devices
+
+**Example**
+
+> An attacker plugs a malicious USB into an office computer.
+
+
+
