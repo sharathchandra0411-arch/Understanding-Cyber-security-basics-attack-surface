@@ -1,0 +1,21 @@
+            +----------------+
+            |   ATTACKER     |
+            +----------------+
+                    |
+                    v
+          +--------------------+
+          | ATTACK SURFACE     |
+          | - Network          |
+          | - Application      |
+          | - Users            |
+          | - Devices          |
+          +--------------------+
+                    |
+                    v
+          +--------------------+
+          | SECURITY CONTROLS  |
+          | - Firewall         |
+          | - MFA              |
+          | - Encryption       |
+          | - Monitoring       |
+          +--------------------+
